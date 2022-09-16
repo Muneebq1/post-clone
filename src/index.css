@@ -1,0 +1,33 @@
+.post {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 400px;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 5px grey;
+    background-color: whitesmoke;
+}
+
+.post .headerPost {
+    display: flex;
+    align-items: center;
+}
+
+.post .profilepic {
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.post .postImage {
+    width: 300px;
+    margin-top: 5px;
+    height: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.post .footer {
+    display: flex;
+    justify-content: space-around;
+}
