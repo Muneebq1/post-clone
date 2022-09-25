@@ -46,22 +46,22 @@ const left = () => (
 
             <p className="sc">Your shortcuts</p>
 
-            <div className="game">
+            <div className="game , dragon" >
                 <FontAwesomeIcon icon={faDragon} />
                 <p>Dragon City</p>
             </div>
 
-            <div className="game">
+            <div className="game , puzzle" >
                 <FontAwesomeIcon icon={faPuzzlePiece} />
                 <p>Puzzle</p>
             </div>
 
-            <div className="game">
+            <div className="game , ludo">
                 <FontAwesomeIcon icon={faDice} />
                 <p>Ludo</p>
             </div>
 
-            <div className="game">
+            <div className="game , chess">
                 <FontAwesomeIcon icon={faChess} />
                 <p>Chess</p>
             </div>

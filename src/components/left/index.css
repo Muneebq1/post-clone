@@ -2,6 +2,8 @@
     padding-top: 10px;
     width: 300px;
     background-color: var(--bg-color);
+    position: fixed;
+    margin-top: 4%;
 }
 
 hr {
@@ -54,7 +56,22 @@ p {
     display: flex;
     align-items: center;
     justify-content: start;
+}
+
+.dragon {
+    color: darkred;
+}
+
+.puzzle {
     color: goldenrod;
+}
+
+.ludo {
+    color: purple;
+}
+
+.chess {
+    color: black;
 }
 
 .frnd {
