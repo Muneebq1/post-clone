@@ -1,20 +1,30 @@
-.room {
-    height: 100vh;
-    margin: 0;
-    background-color: var(--bg-color);
+* {
+    
+    font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
 }
 
-.App>.icon {
-    margin-left: 95%;
+
+
+.flex {
+    display: flex;
 }
+
 
 
 .lit {
-    background-color: white;
-    color: black;
+    --main-color: white;
+    --color-color: black;
+    background-color: rgb(240, 242, 245);
+    color: rgb(102, 102, 102);
+    transition: .6s ease;
+
 }
 
 .dark {
+    --main-color: rgb(21, 32, 43);
+    --color-color: white;
+    transition: .6s ease;
     background-color: rgb(21, 32, 43);
     color: white;
+
 }

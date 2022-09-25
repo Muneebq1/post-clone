@@ -1,0 +1,10 @@
+.right {
+    margin-left: 290px;
+
+}
+
+.pages>.p {
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--bg-color);
+}

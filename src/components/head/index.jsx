@@ -1,8 +1,8 @@
-import { FaSearch, FaFacebook, FaHome, FaUserFriends, FaStore, } from "react-icons/fa";
+import { FaFacebook, FaFacebookMessenger } from "react-icons/fa";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faTv, faGamepad, faListSquares, faMessage, faBell } from '@fortawesome/free-solid-svg-icons'
-import "./index.css";
+import { faUser, faMoon, faSearch, faTv, faGamepad, faHome, faStore, faListSquares, faBell } from '@fortawesome/free-solid-svg-icons'
 
+import "./index.css";
 
 const head = (props) => {
     return (
@@ -12,15 +12,15 @@ const head = (props) => {
                 <i className="fa-brands fa-facebook fa-3x" ></i>
             </div>
             <div className="hsb-2">
-                <FaSearch className="FaSearch" />
+                <FontAwesomeIcon icon={faSearch} className="FaSearch" />
                 <input type="search" placeholder=" Search Facebook" className="hsb2-input" />
             </div>
 
             <div className="hsb-3 ">
-                <FaHome className="hsb-3-icon" />
+                <FontAwesomeIcon icon={faHome} className="hsb-3-icon" />
                 <FontAwesomeIcon icon={faTv} className="hsb-3-icon" />
-                <FaStore className="hsb-3-icon" />
-                <FaUserFriends className="hsb-3-icon" />
+                <FontAwesomeIcon icon={faStore} className="hsb-3-icon" />
+                <FontAwesomeIcon icon={faUser} className="hsb-3-icon" />
                 <FontAwesomeIcon icon={faGamepad} className="hsb-3-icon" />
             </div>
 
@@ -32,18 +32,18 @@ const head = (props) => {
                 </div>
 
                 <div className="msg-icon">
-                    <FontAwesomeIcon icon={faMessage} className="icon" />
+                    <FaFacebookMessenger className="icon" />
                 </div>
 
                 <div className="bell-icon">
                     <FontAwesomeIcon icon={faBell} className="icon" />
                 </div>
-                <i class="img sp_SDWlSDe1GOW_3x sx_d25937"></i>
-                <div type="" className="dp">
+                <div className="dp">
                     <img src="./img/IMG_6703 2.jpg" alt=" DP" width={20} />
                 </div>
-            </div>
 
+                <div className="icon"><FontAwesomeIcon icon={faMoon} onClick={props.clickHandler} /></div>
+            </div>
         </div>
     );
 }

@@ -1,0 +1,113 @@
+.left-bar {
+    padding-top: 10px;
+    width: 300px;
+    background-color: var(--bg-color);
+}
+
+hr {
+    margin-left: 20px;
+}
+
+.sc {
+    font-size: 20px;
+}
+
+.dp {
+    width: 100%;
+    height: 10%;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+p {
+    padding-left: 8px;
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--color-color);
+}
+
+.dp>img {
+    margin-left: 18px;
+    border-radius: 100px;
+    height: 26px;
+    width: 26px;
+}
+
+
+.icon {
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-left: 20px;
+    border-radius: 100px;
+    color: rgb(0, 138, 211);
+}
+
+.game {
+    margin-left: 20px;
+    width: 100%;
+    height: 10%;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    color: goldenrod;
+}
+
+.frnd {
+    width: 100%;
+    height: 10%;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+
+.group {
+    width: 100%;
+    height: 10%;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.store {
+    width: 100%;
+    height: 10%;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.tv {
+    width: 100%;
+    height: 10%;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.memories {
+    width: 100%;
+    height: 10%;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.see-more {
+    width: 100%;
+    height: 10%;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}

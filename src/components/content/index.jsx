@@ -1,13 +1,12 @@
 import moment from 'moment';
-
 import "./index.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faThumbsUp, faComment, faShare, } from '@fortawesome/free-solid-svg-icons'
 
 let Post = (props) => {
     return (
-        <div className="post">
 
+        <div className="post">
             <div className="headerPost">
                 <img className="profilepic" src={props.profilepic} alt="profile" />
 
@@ -75,5 +74,7 @@ We address our most frequently seen support requests here, so it is a great plac
         />
     </div>
 
+
 }
+
 export default content;
